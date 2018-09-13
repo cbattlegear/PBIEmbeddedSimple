@@ -15,16 +15,16 @@ This is a dashboard embedded using credentials that are in the code
 * ApplicationId
 	* This is the Application ID of the AAD App you created follow the instructions here https://docs.microsoft.com/en-us/power-bi/developer/embed-sample-for-customers#register-an-application-in-azure-active-directory-azure-ad
 * WorkspaceId
-	* This is the workspace ID for your Power BI Workspace this is the first GUID in your Power BI dashboard url https://org.powerbi.com/groups/11111111-2222-3333-4444-555555555555/dashboards/11111111-2222-3333-4444-555555555555
+	* This is the workspace ID for your Power BI Workspace this is the first GUID in your Power BI dashboard url https://app.powerbi.com/groups/11111111-2222-3333-4444-555555555555/dashboards/11111111-2222-3333-4444-555555555555
 * DashboardId
-	* This is the dashboard ID for your Power BI Workspace this is the second GUID in your Power BI dashboard url https://org.powerbi.com/groups/11111111-2222-3333-4444-555555555555/dashboards/11111111-2222-3333-4444-555555555555
+	* This is the dashboard ID for your Power BI Workspace this is the second GUID in your Power BI dashboard url https://app.powerbi.com/groups/11111111-2222-3333-4444-555555555555/dashboards/11111111-2222-3333-4444-555555555555
 
 ## Apps Owns Report
 
 This is a report embedded using credentials that are in the code. The settings are the same as the Dashboard setup except for ReportId
 ### Items you need to change:
 * ReportId
-	* This is the report ID for your Power BI Workspace this is the second GUID in your Power BI report url https://org.powerbi.com/groups/11111111-2222-3333-4444-555555555555/reports/11111111-2222-3333-4444-555555555555/ReportSection
+	* This is the report ID for your Power BI Workspace this is the second GUID in your Power BI report url https://app.powerbi.com/groups/11111111-2222-3333-4444-555555555555/reports/11111111-2222-3333-4444-555555555555/ReportSection
 
 ## User Owns Dashboard
 
@@ -37,9 +37,9 @@ This is a dashboard that the user will log in with their own credentials. One im
 * RedirectUrl
 	* This is the Redirect URL for the auth to land on, you can copy/paste this from the code
 * WorkspaceId
-	* This is the workspace ID for your Power BI Workspace this is the first GUID in your Power BI dashboard url https://org.powerbi.com/groups/11111111-2222-3333-4444-555555555555/dashboards/11111111-2222-3333-4444-555555555555
+	* This is the workspace ID for your Power BI Workspace this is the first GUID in your Power BI dashboard url https://app.powerbi.com/groups/11111111-2222-3333-4444-555555555555/dashboards/11111111-2222-3333-4444-555555555555
 * DashboardId
-	* This is the dashboard ID for your Power BI Workspace this is the second GUID in your Power BI dashboard url https://org.powerbi.com/groups/11111111-2222-3333-4444-555555555555/dashboards/11111111-2222-3333-4444-555555555555
+	* This is the dashboard ID for your Power BI Workspace this is the second GUID in your Power BI dashboard url https://app.powerbi.com/groups/11111111-2222-3333-4444-555555555555/dashboards/11111111-2222-3333-4444-555555555555
 
 ## User Owns Report
 
@@ -47,4 +47,4 @@ This is a report that the user will log in with their own credentials. One impor
 The only difference is we set the ReportId instead of the DashboardId
 ### Items you need to change:
 * ReportId
-	* This is the report ID for your Power BI Workspace this is the second GUID in your Power BI report url https://org.powerbi.com/groups/11111111-2222-3333-4444-555555555555/reports/11111111-2222-3333-4444-555555555555/ReportSection
+	* This is the report ID for your Power BI Workspace this is the second GUID in your Power BI report url https://app.powerbi.com/groups/11111111-2222-3333-4444-555555555555/reports/11111111-2222-3333-4444-555555555555/ReportSection

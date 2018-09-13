@@ -30,7 +30,7 @@ namespace PBIEmbeddedSimple
 
         //These are the IDs for your workspace and report, these can easily be found via your Power BI url
         /*
-         * https://org.powerbi.com/groups/11111111-2222-3333-4444-555555555555/reports/11111111-2222-3333-4444-555555555555/ReportSection
+         * https://app.powerbi.com/groups/11111111-2222-3333-4444-555555555555/reports/11111111-2222-3333-4444-555555555555/ReportSection
          *                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
          *                                     This is your Workspace ID                    This is your Report ID
          */
